@@ -18,22 +18,21 @@ public class Ejercicio7 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    Scanner entrada = new Scanner (System.in);
-    int base;
-    int exponente;
-    
-    System.out.println("Digite el numero que quiere elevar: ");
-    base = entrada.nextInt();
-    System.out.println("Digite el valor al cual lo quiere elevar: ");
-    exponente = entrada.nextInt();
-    
-    int resultado = 1;
-    for(int i = 1; i<=exponente; i++){
-    resultado *=  base;
-    }     
-    
-  
-    System.out.println("El resultado es: "+ resultado); 
+        Scanner entrada = new Scanner(System.in);
+        int base;
+        int exponente;
+
+        System.out.println("Digite el numero que quiere elevar: ");
+        base = entrada.nextInt();
+        System.out.println("Digite el valor al cual lo quiere elevar: ");
+        exponente = entrada.nextInt();
+
+        int resultado = 1;
+        for (int i = 1; i <= exponente; i++) {
+            resultado *= base;
+        }
+
+        System.out.println("El resultado es: " + resultado);
     }
-    
+
 }
