@@ -17,7 +17,8 @@ public class Estudiante {
     String nombre;
     String apellido;
     int carnet;
-
+    
+    
     public Estudiante() {
     }   //instanciar sin enviar valor
 
